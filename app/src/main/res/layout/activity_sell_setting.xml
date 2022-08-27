@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/basic_color">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:fontFamily="@font/gmarket"
+        android:gravity="center"
+        android:text="물품 등록하기"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/login_box"
+        android:layout_height="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_marginTop="25dp"
+                android:paddingLeft="20dp"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                android:gravity="fill"
+                android:fontFamily="@font/gmarket"
+                android:textColor="@color/division_line"
+                android:background="@drawable/division_box1"
+                android:hint="물건 이름"/>
+
+           <FrameLayout
+               android:layout_marginTop="25dp"
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/division_box1"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/plus_icon" />
+           </FrameLayout>
+
+            <EditText
+                android:layout_marginTop="25dp"
+                android:id="@+id/editText"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textSize="17sp"
+                android:fontFamily="@font/gmarket"
+                android:gravity="fill"
+                android:textColor="@color/division_line"
+                android:layout_gravity="center"
+                android:background="@drawable/division_box1"
+                android:hint="포인트 액수"
+                android:paddingLeft="20dp"/>
+
+            <EditText
+                android:paddingLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:background="@drawable/division_box1"
+                android:textSize="17sp"
+                android:fontFamily="@font/gmarket"
+                android:gravity="center|fill_horizontal"
+                android:textColor="@color/division_line"
+                android:layout_gravity="center"
+                android:hint="시간대"/>
+
+            <Button
+                android:text="완료"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:fontFamily="@font/gmarket"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="266dp"
+                android:layout_marginTop="35dp"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:background="@drawable/division_box3"
+                />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:fontFamily="@font/gmarketsansttfmedium"
+        android:fontFamily="@font/gmarket"
         android:gravity="center"
         android:text="마이페이지"
         android:textSize="20sp"
@@ -70,7 +70,7 @@
                         android:layout_width="290dp"
                         android:layout_height="40dp"
                         android:gravity="center"
-                        android:fontFamily="@font/gmarketsansttfmedium"
+                        android:fontFamily="@font/gmarket"
                         android:textColor="@color/black"
                         android:text="김  숙  명"
                         android:textSize="25sp" />
@@ -80,7 +80,7 @@
                         android:layout_height="40dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center"
-                        android:fontFamily="@font/gmarketsansttfmedium"
+                        android:fontFamily="@font/gmarket"
                         android:text="0000000"
                         android:textColor="@color/black"
                         android:textSize="25sp" />
@@ -94,7 +94,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/division_box2"
-                android:fontFamily="@font/gmarketsansttfmedium"
+                android:fontFamily="@font/gmarket"
                 android:drawableLeft="@drawable/heart_imt"
                 android:gravity="center|start"
                 android:drawablePadding="15dp"
@@ -110,7 +110,7 @@
                 android:drawableLeft="@drawable/present_imt"
                 android:gravity="center|start"
                 android:drawablePadding="15dp"
-                android:fontFamily="@font/gmarketsansttfmedium"
+                android:fontFamily="@font/gmarket"
                 android:background="@drawable/division_box2"
                 android:textSize="25sp"
                 android:text="받은 마음" />
@@ -123,16 +123,18 @@
                 android:drawableLeft="@drawable/mileage_imt"
                 android:gravity="center|start"
                 android:drawablePadding="15dp"
-                android:fontFamily="@font/gmarketsansttfmedium"
+                android:fontFamily="@font/gmarket"
                 android:background="@drawable/division_box2"
                 android:textSize="25sp"
-                android:text="마일리지" />
+                android:text="포인트" />
 
             <TextView
                 android:layout_marginTop="100dp"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
-                android:fontFamily="@font/gmarketsansttfmedium"
+                android:textSize="15sp"
+                android:textColor="@color/division_line"
+                android:fontFamily="@font/gmarket"
                 android:gravity="center"
                 android:text="로그아웃" />
         </LinearLayout>

@@ -9,22 +9,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:background="#EAECEB"
+        android:background="#FFFFFF"
         android:orientation="horizontal"
         android:padding="5dp">
 
         <ImageView
+            android:layout_marginLeft="5dp"
             android:id="@+id/product_img"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
-            android:background="@drawable/product" />
+            android:background="@drawable/division_box6" />
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:background="#E6E6E6"
+            android:layout_marginLeft="10dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -33,36 +33,38 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:paddingLeft="5dp"
                     android:id="@+id/product_name"
-                    android:text="물건명"
-                    android:layout_width="99dp"
+                    android:text="C타입 충전기"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:paddingTop="3dp"
                     android:paddingBottom="3dp"
                     android:textColor="#000000"
-                    android:textSize="17dp"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/product_time"
-                    android:text="00:00 ~ 00:00"
-                    android:layout_gravity=""
+                    android:text="16:50 ~ 17:00"
+                    android:layout_gravity="center|right"
+                    android:gravity="right"
+                    android:layout_marginRight="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="3dp"
                     android:paddingBottom="3dp"
                     android:textColor="#000000"
-                    android:textSize="17dp"
-                    android:textStyle="bold" />
+                    android:textSize="14dp"/>
             </LinearLayout>
 
             <TextView
                 android:id="@+id/product_detail"
-                android:text="상세설명"
+                android:padding="5dp"
+                android:text="C타입 충전기 빌려드립니다.\n오후5시까지 명신관으로 오시면 됩니다! "
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_marginTop="2dp"
-                android:background="#EEEEFA"
                 android:paddingTop="3dp"
                 android:paddingBottom="3dp"
                 android:textColor="#666666"
@@ -70,26 +72,35 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="62dp"
+                android:layout_height="30dp"
                 android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btn_ask"
-                    android:layout_width="64dp"
-                    android:layout_height="35dp"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="170dp"
-                    android:backgroundTint="#2F8DDF"
-                    android:text="신청" />
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@drawable/division_box4"
+                    android:text="채팅" />
 
                 <Button
                     android:id="@+id/btn_chat"
-                    android:layout_width="64dp"
-                    android:layout_height="35dp"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
                     android:layout_gravity="center"
                     android:layout_marginLeft="5dp"
-                    android:backgroundTint="#2041B9"
-                    android:text="채팅" />
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@drawable/division_box3"
+                    android:text="신청" />
 
             </LinearLayout>
 

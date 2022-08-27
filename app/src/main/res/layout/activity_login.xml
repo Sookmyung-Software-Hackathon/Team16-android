@@ -6,19 +6,37 @@
     android:layout_height="match_parent"
     android:background="#0476D9">
 
-    <TextView
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:gravity="center"
-        android:fontFamily="@font/cafe24ssurround"
-        android:text="소.확.공"
-        android:textColor="@color/white"
-        android:textSize="60sp"
-        android:textStyle="bold"
+        android:layout_height="280dp"
         app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/house_img" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="@font/cafe24"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="눈송 빌리지"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </FrameLayout>
 
     <FrameLayout
         android:id="@+id/frameLayout2"
@@ -41,40 +59,46 @@
             android:orientation="vertical">
             <EditText
                 android:paddingLeft="20dp"
+                android:textColor="@color/division_line"
+                android:gravity="fill"
                 android:background="@drawable/division_box2"
                 android:hint="아이디"
-                android:fontFamily="@font/gmarketsansttfmedium"
+                android:fontFamily="@font/gmarket"
                 android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"/>
 
             <EditText
                 android:layout_marginTop="15dp"
+                android:textColor="@color/division_line"
                 android:paddingLeft="20dp"
+                android:gravity="fill"
                 android:background="@drawable/division_box2"
                 android:layout_width="match_parent"
                 android:textSize="20sp"
-                android:fontFamily="@font/gmarketsansttfmedium"
+                android:fontFamily="@font/gmarket"
                 android:layout_height="60dp"
                 android:hint="비밀번호" />
 
             <Button
                 android:layout_marginTop="50dp"
                 android:text="로그인"
+                android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:textColor="@color/white"
-                android:fontFamily="@font/gmarketsansttfmedium"
+                android:fontFamily="@font/gmarket"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/division_box3"/>
 
             <Button
                 android:text="회원가입"
+                android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:textColor="@color/white"
-                android:fontFamily="@font/gmarketsansttfmedium"
+                android:fontFamily="@font/gmarket"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"

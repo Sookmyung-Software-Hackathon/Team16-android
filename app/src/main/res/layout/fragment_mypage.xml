@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0476D9">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:fontFamily="@font/gmarketsansttfmedium"
+        android:gravity="center"
+        android:text="마이페이지"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_marginTop="250dp"
+            android:background="#E4E4E4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="680dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <View
+                    android:layout_marginTop="70dp"
+                    android:layout_width="380dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/division_box2"/>
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="130dp"
+                    android:background="@drawable/mypage_profile" />
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="200dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/gmarketsansttfmedium"
+                        android:textColor="@color/black"
+                        android:text="김  숙  명"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/gmarketsansttfmedium"
+                        android:text="0000000"
+                        android:textColor="@color/black"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/division_box2"
+                android:fontFamily="@font/gmarketsansttfmedium"
+                android:drawableLeft="@drawable/heart_imt"
+                android:gravity="center|start"
+                android:drawablePadding="15dp"
+                android:padding="5dp"
+                android:text="나눈 마음"
+                android:textSize="25sp" />
+
+            <Button
+                android:padding="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableLeft="@drawable/present_imt"
+                android:gravity="center|start"
+                android:drawablePadding="15dp"
+                android:fontFamily="@font/gmarketsansttfmedium"
+                android:background="@drawable/division_box2"
+                android:textSize="25sp"
+                android:text="받은 마음" />
+
+            <Button
+                android:padding="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableLeft="@drawable/mileage_imt"
+                android:gravity="center|start"
+                android:drawablePadding="15dp"
+                android:fontFamily="@font/gmarketsansttfmedium"
+                android:background="@drawable/division_box2"
+                android:textSize="25sp"
+                android:text="마일리지" />
+
+            <TextView
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:fontFamily="@font/gmarketsansttfmedium"
+                android:gravity="center"
+                android:text="로그아웃" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

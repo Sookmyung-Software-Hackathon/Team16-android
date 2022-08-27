@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/aciton_buy"
+        android:icon="@drawable/buy"
+        android:enabled="true"
+        android:title="@string/buy"/>
+    <item
+        android:id="@+id/action_sell"
+        android:icon="@drawable/sell"
+        android:enabled="true"
+        android:title="@string/sell"/>
+    <item
+        android:id="@+id/action_chat"
+        android:icon="@drawable/chat"
+        android:enabled="true"
+        android:title="@string/chat"/>
+    <item
+        android:id="@+id/action_mypage"
+        android:icon="@drawable/mypage"
+        android:enabled="true"
+        android:title="@string/mypage"/>
+</menu>

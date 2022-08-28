@@ -3,20 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.129" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.129" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/activity_buy.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/activity_buy_detail.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/activity_chatting_detail.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/activity_chatting_list.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/activity_login.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/activity_mypage.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/activity_sell.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/activity_sell_detail.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/activity_sell_setting.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/layout/buy_item_view.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/SMWUH_team16/app/src/main/res/menu/bottom_navigation_main.xml" value="0.17685185185185184" />
+        <entry key="..\:/SW_2110801/SMWUH16/app/src/main/res/layout/activity_chatting_detail.xml" value="0.1125" />
+        <entry key="..\:/SW_2110801/SMWUH16/app/src/main/res/layout/activity_login.xml" value="0.1125" />
+        <entry key="..\:/SW_2110801/SMWUH16/app/src/main/res/layout/activity_main.xml" value="0.1125" />
+        <entry key="..\:/SW_2110801/SMWUH16/app/src/main/res/layout/activity_sell.xml" value="0.1125" />
+        <entry key="..\:/SW_2110801/SMWUH16/app/src/main/res/layout/activity_sell_detail.xml" value="0.1125" />
+        <entry key="..\:/SW_2110801/SMWUH16/app/src/main/res/layout/activity_sell_setting.xml" value="0.1125" />
       </map>
     </option>
   </component>

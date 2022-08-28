@@ -17,7 +17,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.team16.databinding.ActivityMainBinding;
-
 import java.util.ArrayList;
 
 public class BuyFragment extends Fragment {

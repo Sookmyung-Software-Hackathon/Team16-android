@@ -15,13 +15,42 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/snow_img" />
+
+        <ImageView
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="170dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/snow_img" />
+
+        <ImageView
+            android:layout_marginTop="37dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/snow_img" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="300dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/snow_img" />
+
+        <ImageView
             android:layout_width="181dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="170dp"
-            android:layout_marginTop="27dp"
+            android:layout_marginTop="97dp"
             android:background="@drawable/house_img" />
 
         <TextView
+            android:layout_marginTop="70dp"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:fontFamily="@font/cafe24"

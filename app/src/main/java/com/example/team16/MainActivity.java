@@ -12,8 +12,6 @@ import android.view.MenuItem;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
-import org.techtown.smwuh_team16.R;
-
 public class MainActivity extends AppCompatActivity {
 
     private NavigationView navigationView;

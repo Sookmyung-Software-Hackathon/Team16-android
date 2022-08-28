@@ -9,8 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.CustomViewHolder> {
@@ -67,6 +65,7 @@ public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.CustomViewHolder
             this.buy_name = (TextView) itemView.findViewById(R.id.product_name);
             this.buy_detail = (TextView) itemView.findViewById(R.id.product_detail);
             this.buy_time = (TextView) itemView.findViewById(R.id.product_time);
+
 
         }
     }

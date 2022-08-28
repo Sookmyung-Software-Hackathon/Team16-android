@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "29944894103",
+    "project_id": "snowvillage-636a1",
+    "storage_bucket": "snowvillage-636a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29944894103:android:f573d35ff1e8665edc0fd2",
+        "android_client_info": {
+          "package_name": "com.example.team16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29944894103-u599ag9o4foeqk0s871lds8ug91tfmns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.team16",
+            "certificate_hash": "8e875ab8312b1b3b6395da19e0ef588963c82898"
+          }
+        },
+        {
+          "client_id": "29944894103-qqdubvfhhgam45128957742c0qj1351n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr12shxKrHURo_66ZjsZBDaKU2Xz3X4l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29944894103-qqdubvfhhgam45128957742c0qj1351n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

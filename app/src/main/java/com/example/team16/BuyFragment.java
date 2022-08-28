@@ -18,7 +18,6 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-
 import java.util.ArrayList;
 
 public class BuyFragment extends Fragment {
@@ -54,11 +53,11 @@ public class BuyFragment extends Fragment {
 
     //데이터 준비(최종적으로는 동적으로 추가하거나 삭제할 수 있어야 한다. 이 데이터를 어디에 저장할지 정해야 한다.)
     private void prepareData() {
-        buylist.add(new BuyData("서울시청","37.54892296550104"));
-        buylist.add(new BuyData("경복궁","126.99089033876304"));
-        buylist.add(new BuyData("서울역","37.54892296550104"));
-        buylist.add(new BuyData("남산","4892296550104"));
-        buylist.add(new BuyData("을지로입구역","37.54892296550104"));
+        buylist.add(new BuyData("서울시청","서울시청 빌려주세요", "10:00~11:00"));
+        buylist.add(new BuyData("경복궁","경복궁 빌려주시면 안될까요?", "11:00~12:00"));
+        buylist.add(new BuyData("서울역","서울역 싸게 빌려요", "10:00~13:00"));
+        buylist.add(new BuyData("남산","남산 베풀어주실수 있을까요", "10:00~15:00"));
+        buylist.add(new BuyData("을지로입구역","을지로입구역 빌려요. \n을지로3가역도 괜찮아요","10:00~19:00"));
     }
 
 }

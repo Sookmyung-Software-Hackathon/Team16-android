@@ -21,6 +21,8 @@ public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.CustomViewHolder
     }
 
     @NonNull
+
+
     @Override
     public BuyAdapter.CustomViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 

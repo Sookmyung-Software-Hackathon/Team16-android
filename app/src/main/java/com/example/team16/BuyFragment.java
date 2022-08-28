@@ -18,11 +18,10 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.team16.databinding.ActivityMainBinding;
-import com.google.android.material.navigation.NavigationView;
+
+import org.techtown.smwuh_team16.R;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
 public class BuyFragment extends Fragment {
 

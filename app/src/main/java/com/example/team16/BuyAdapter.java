@@ -67,8 +67,7 @@ public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.CustomViewHolder
             this.buy_name = (TextView) itemView.findViewById(R.id.product_name);
             this.buy_detail = (TextView) itemView.findViewById(R.id.product_detail);
             this.buy_time = (TextView) itemView.findViewById(R.id.product_time);
-
-
+            
         }
     }
 }

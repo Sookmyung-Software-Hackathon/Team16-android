@@ -8,7 +8,8 @@
     <LinearLayout
         android:id="@+id/chattingtheme"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
+        android:background="#0476D9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -18,10 +19,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="채팅방 목록"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:text="송이들의 채팅방"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/gmarket" />
     </LinearLayout>
 
     <View
@@ -34,13 +36,15 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/chattingRecyclerView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:listitem="@layout/buy_item_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/chattingtheme"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/chatlist_view" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

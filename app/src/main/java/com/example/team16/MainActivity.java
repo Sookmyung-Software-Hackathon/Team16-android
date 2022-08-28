@@ -6,24 +6,13 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.app.Activity;
-import android.app.ProgressDialog;
-import android.content.Intent;
-import android.nfc.Tag;
+
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
-import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.tabs.TabLayout;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
-import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -65,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
 
 }

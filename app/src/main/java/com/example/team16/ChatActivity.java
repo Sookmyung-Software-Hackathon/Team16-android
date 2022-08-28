@@ -105,7 +105,7 @@ public class ChatActivity extends AppCompatActivity {
         });
         // setValue : message 밑에 들어갈 데이터.
         // 1. recyclerView = 반복, 채팅창을 반복해 보여줌
-        // 2. DB 내용을 넣는다.
+        // 2. DB 내용을 넣는다.3
         // 3. 상대방 폰에 채팅 내용이 보임
 
         // 1-1. recyclerview - chat data

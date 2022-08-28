@@ -96,6 +96,7 @@
                 android:hint="시간대"/>
 
             <Button
+                android:id="@+id/add_complete"
                 android:text="완료"
                 android:textSize="17sp"
                 android:gravity="center"

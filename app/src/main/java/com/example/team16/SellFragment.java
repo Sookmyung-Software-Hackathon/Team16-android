@@ -53,11 +53,11 @@ public class SellFragment extends Fragment {
 
     //데이터 준비(최종적으로는 동적으로 추가하거나 삭제할 수 있어야 한다. 이 데이터를 어디에 저장할지 정해야 한다.)
     private void prepareData() {
-        selllist.add(new SellData("서울시청","서울시청 빌려드릴게요", "10:00~11:00"));
-        selllist.add(new SellData("경복궁","경복궁 받아주시면 안될까요?", "11:00~12:00"));
-        selllist.add(new SellData("서울역","서울역 싸게 빌려드려요", "10:00~13:00"));
-        selllist.add(new SellData("남산","남산 베풀어드릴게요", "10:00~15:00"));
-        selllist.add(new SellData("을지로입구역","을지로입구역 빌려드릴까유. \n을지로3가역도 가능","10:00~19:00"));
+        selllist.add(new SellData("C 프로그래밍 교재","교재 빌려드려요 \n 일주일까지 가능합니다", "10:00~11:00"));
+        selllist.add(new SellData("보조배터리","보조배터리 빌려드립니다", "11:00~17:00"));
+        selllist.add(new SellData("학위복","1캠 앞 직거래 선호합니다", "10:00~13:00"));
+        selllist.add(new SellData("캐리어","캐리어 빌려드립니다!", "10:00~15:00"));
+        selllist.add(new SellData("노트북 충전기","노트북 충전기 빌려드립니다 :)","10:00~19:00"));
     }
 
 }

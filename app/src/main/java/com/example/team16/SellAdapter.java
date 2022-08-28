@@ -11,20 +11,18 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.CustomViewHolder> {
+public class SellAdapter extends RecyclerView.Adapter<SellAdapter.CustomViewHolder> {
 
-    private ArrayList<BuyData> arrayList;
+    private ArrayList<SellData> arrayList;
     private Intent intent;
 
-    public BuyAdapter(ArrayList<BuyData> arrayList) {
+    public SellAdapter(ArrayList<SellData> arrayList) {
         this.arrayList = arrayList;
     }
 
     @NonNull
-
-
     @Override
-    public BuyAdapter.CustomViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public SellAdapter.CustomViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.buy_item_view, parent, false);
         CustomViewHolder holder = new CustomViewHolder(view);
@@ -33,10 +31,10 @@ public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.CustomViewHolder
     }
 
     @Override
-    public void onBindViewHolder(@NonNull BuyAdapter.CustomViewHolder holder, int position) {
-        holder.buy_name.setText(arrayList.get(position).getBuy_name());
-        holder.buy_detail.setText(arrayList.get(position).getBuy_detail());
-        holder.buy_time.setText(arrayList.get(position).getBuy_time());
+    public void onBindViewHolder(@NonNull SellAdapter.CustomViewHolder holder, int position) {
+        holder.sell_name.setText(arrayList.get(position).getSell_name());
+        holder.sell_detail.setText(arrayList.get(position).getSell_detail());
+        holder.sell_time.setText(arrayList.get(position).getSell_time());
 
         holder.itemView.setTag(position);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -58,16 +56,16 @@ public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.CustomViewHolder
 
     public class CustomViewHolder extends RecyclerView.ViewHolder {
 
-        protected TextView buy_name;
-        protected TextView buy_detail;
-        protected TextView buy_time;
+        protected TextView sell_name;
+        protected TextView sell_detail;
+        protected TextView sell_time;
 
         public CustomViewHolder(@NonNull View itemView) {
             super(itemView);
-            this.buy_name = (TextView) itemView.findViewById(R.id.product_name);
-            this.buy_detail = (TextView) itemView.findViewById(R.id.product_detail);
-            this.buy_time = (TextView) itemView.findViewById(R.id.product_time);
-            
+            this.sell_name = (TextView) itemView.findViewById(R.id.product_name);
+            this.sell_detail = (TextView) itemView.findViewById(R.id.product_detail);
+            this.sell_time = (TextView) itemView.findViewById(R.id.product_time);
+
         }
     }
 }

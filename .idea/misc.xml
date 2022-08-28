@@ -3,29 +3,43 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_buy.xml" value="0.1" />
-        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_buy_detail.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_buy.xml" value="0.15" />
+        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_buy_detail.xml" value="0.25" />
+        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_chat.xml" value="0.3359375" />
         <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_chatting_detail.xml" value="0.22146739130434784" />
-        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_chatting_list.xml" value="0.3359375" />
-        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_login.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_chatting_list.xml" value="0.25" />
+        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_mypage.xml" value="0.1318359375" />
         <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_sell.xml" value="0.3359375" />
         <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_sell_detail.xml" value="0.22146739130434784" />
         <entry key="..\:/Users/82105/team16/app/src/main/res/layout/activity_sell_setting.xml" value="0.22146739130434784" />
-        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/buy_item_view.xml" value="0.1" />
+        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/buy_item_view.xml" value="0.25" />
+        <entry key="..\:/Users/82105/team16/app/src/main/res/layout/sell_item_view.xml" value="0.3359375" />
         <entry key="..\:/Users/82105/team16/app/src/main/res/menu/bottom_navigation_main.xml" value="0.1" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/activity_buy.xml" value="0.2324074074074074" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/activity_buy_detail.xml" value="0.2324074074074074" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/activity_chatting_detail.xml" value="0.10277777777777777" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/activity_chatting_list.xml" value="0.24564102564102563" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/activity_login.xml" value="0.2324074074074074" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/activity_main.xml" value="0.24564102564102563" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/activity_mypage.xml" value="0.176" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/activity_sell.xml" value="0.2324074074074074" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/activity_sell_detail.xml" value="0.2324074074074074" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/activity_sell_setting.xml" value="0.24564102564102563" />
-        <entry key="..\:/Users/samto/AndroidStudioProjects/team16/app/src/main/res/layout/buy_item_view.xml" value="0.24564102564102563" />
+        <entry key="app/src/main/res/layout/activity_buy.xml" value="0.12273550724637682" />
+        <entry key="app/src/main/res/layout/activity_buy_detail.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.2122222900390625" />
+        <entry key="app/src/main/res/layout/activity_chatting_detail.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/activity_chatting_list.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/activity_mypage.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/activity_news.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_newsdetail.xml" value="0.21422101449275363" />
+        <entry key="app/src/main/res/layout/activity_sell.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/activity_sell_detail.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/activity_sell_setting.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/activity_xml_news.xml" value="0.20729166666666668" />
+        <entry key="app/src/main/res/layout/buy_item_view.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/content_xml_news.xml" value="0.16304347826086957" />
+        <entry key="app/src/main/res/layout/fragment_buy.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/fragment_chatting_list.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/fragment_mypage.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/fragment_sell.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/layout/row_chat.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_news.xml" value="0.21422101449275363" />
+        <entry key="app/src/main/res/layout/sell_item_view.xml" value="0.18072916666666666" />
       </map>
     </option>
   </component>

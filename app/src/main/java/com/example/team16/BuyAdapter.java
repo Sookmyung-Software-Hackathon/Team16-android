@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.techtown.smwuh_team16.R;
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
@@ -36,6 +36,7 @@ public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.CustomViewHolder
     public void onBindViewHolder(@NonNull BuyAdapter.CustomViewHolder holder, int position) {
         holder.buy_name.setText(arrayList.get(position).getBuy_name());
         holder.buy_detail.setText(arrayList.get(position).getBuy_detail());
+        holder.buy_time.setText(arrayList.get(position).getBuy_time());
 
         holder.itemView.setTag(position);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -59,11 +60,14 @@ public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.CustomViewHolder
 
         protected TextView buy_name;
         protected TextView buy_detail;
+        protected TextView buy_time;
 
         public CustomViewHolder(@NonNull View itemView) {
             super(itemView);
             this.buy_name = (TextView) itemView.findViewById(R.id.product_name);
             this.buy_detail = (TextView) itemView.findViewById(R.id.product_detail);
+            this.buy_time = (TextView) itemView.findViewById(R.id.product_time);
+
         }
     }
 }

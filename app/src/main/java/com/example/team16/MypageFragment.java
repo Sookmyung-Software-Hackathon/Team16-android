@@ -9,8 +9,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import org.techtown.smwuh_team16.R;
-
 public class MypageFragment extends Fragment {
 
     @Nullable

@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import org.techtown.smwuh_team16.R;
+
 import java.util.ArrayList;
 
 public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.CustomViewHolder> {

@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">SMWUH_team16</string>
+    <string name="app_name">team16</string>
+
+    <!-- Bottom Navigation View -->
+    <string name="buy">빌려요</string>
+    <string name="sell">빌려드려요</string>
+    <string name="chat">채팅방</string>
+    <string name="mypage">나의 페이지</string>
 </resources>
